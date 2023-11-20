@@ -1,25 +1,25 @@
 .test {
-    padding-bottom: 100px ;
+  padding-bottom: 100px;
 }
 
 .test__description {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .test__list {
-    width: 805px;
-    
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
+  width: 805px;
+
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
 }
 
 .test__item {
-    font-size: 20px;
-    line-height: calc(30 / 20);
+  font-size: 20px;
+  line-height: calc(30 / 20);
 }
 
 .test__item--accent {
-    font-family: $bold;
+  font-family: $bold, sans-serif;
 }

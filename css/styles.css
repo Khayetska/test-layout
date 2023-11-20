@@ -53,7 +53,7 @@ a {
 }
 
 button {
-  font-family: inherit;
+  font-family: "ProximaNovaBold", sans-serif;
   cursor: pointer;
 }
 
@@ -168,7 +168,7 @@ button {
 }
 
 .hero__text {
-  font-family: "ProximaNovaBold";
+  font-family: "ProximaNovaBold", sans-serif;
   font-size: 20px;
 }
 
@@ -176,8 +176,8 @@ button {
   border: none;
   margin-top: 40px;
   border-radius: 5px;
-  font-family: "ProximaNovaBold";
-  background: linear-gradient(134deg, #FFDF00 -7.01%, #FFB800 109.07%);
+  font-family: "ProximaNovaBold", sans-serif;
+  background: linear-gradient(134deg, #ffdf00 -7.01%, #ffb800 109.07%);
   padding: 20px 82px;
   font-size: 20px;
 }
@@ -213,7 +213,7 @@ button {
 }
 
 .test__item--accent {
-  font-family: "ProximaNovaBold";
+  font-family: "ProximaNovaBold", sans-serif;
 }
 
 .info {
@@ -253,7 +253,7 @@ button {
   line-height: 1.5;
 }
 .info__item span {
-  font-family: "ProximaNovaBold";
+  font-family: "ProximaNovaBold", sans-serif;
 }
 .info__item--accent {
   font-family: "ProximaNovaBold", sans-serif;
