@@ -1,0 +1,25 @@
+.test {
+    padding: 100px 0;
+}
+
+.test__description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.test__list {
+    width: 805px;
+    
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.test__item {
+    font-size: 20px;
+    line-height: calc(30 / 20);
+}
+
+.test__item--accent {
+    font-family: $bold;
+}

@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'ProximaNovaRegular'; // 400
+    src: url('/fonts/Proxima\ Nova/proximanova_regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ProximaNovaBold'; // 700
+    src: url('/fonts/Proxima\ Nova/proximanova_bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'ProximaNovaExtraBold'; // 800
+    src: url('/fonts/Proxima\ Nova/proximanova_extrabold.otf') format('opentype');
+}
+
+
+@font-face {
+    font-family: 'ProximaNovaBlack'; // 900
+    src: url('/fonts/Proxima\ Nova/proximanova_black.otf') format('opentype');
+}
+
+$regular: 'ProximaNovaRegular';
+$bold: 'ProximaNovaBold';
+$extra-bold: 'ProximaNovaExtraBold';
+$black: 'ProximaNovaBlack'

@@ -1,0 +1,54 @@
+.info {
+  background: linear-gradient(134deg, #ffdf00 -7.01%, #ffb800 109.07%), #fffefc;
+  display: flex;
+}
+
+.info__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info__list {
+  width: 870px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 28px;
+}
+
+.info__item {
+  font-size: 20px;
+  line-height: calc(30 / 20);
+
+  & span {
+    font-family: $bold;
+  }
+
+  &--accent {
+    font-family: $bold, sans-serif;
+    font-size: 26px;
+    line-height: calc(32 / 26);
+    margin-bottom: 15px;
+    width: 870px;
+  }
+}
+
+.companies {
+  display: flex;
+  gap: 50px;
+  height: 60px;
+}
+
+.companies__item {
+  &:nth-child(1) {
+    width: 105px;
+  }
+  &:nth-child(2) {
+    height: 219px;
+  }
+  &:nth-child(3) {
+    height: 206px;
+  }
+}
+
