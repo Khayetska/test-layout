@@ -1,8 +1,8 @@
 body {
   background-color: #fffefc;
-  background: radial-gradient(circle, #ffdd0056 20%, #fff 0%);
+  background: radial-gradient(circle, #ffdd0056 15%, #fff 0%);
   background-repeat: no-repeat;
-  background-position-y: -370px;
+  background-position-y: -740px;
   background-position-x: -850px;
 
   font-family: $regular, sans-serif;
@@ -43,7 +43,6 @@ button {
 }
 
 .container {
-  outline: 1px solid tomato;
   width: 1740px;
   padding: 0 15px;
   margin: 0 auto;

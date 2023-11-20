@@ -16,9 +16,9 @@
 }
 body {
   background-color: #fffefc;
-  background: radial-gradient(circle, rgba(255, 221, 0, 0.337254902) 20%, #fff 0%);
+  background: radial-gradient(circle, rgba(255, 221, 0, 0.337254902) 15%, #fff 0%);
   background-repeat: no-repeat;
-  background-position-y: -370px;
+  background-position-y: -740px;
   background-position-x: -850px;
   font-family: "ProximaNovaRegular", sans-serif;
   color: #333;
@@ -58,7 +58,6 @@ button {
 }
 
 .container {
-  outline: 1px solid tomato;
   width: 1740px;
   padding: 0 15px;
   margin: 0 auto;
@@ -149,8 +148,7 @@ button {
 }
 
 .hero {
-  padding-top: 100px;
-  padding-bottom: 343px;
+  padding: 100px 0;
 }
 
 .hero-content {
@@ -185,7 +183,7 @@ button {
 }
 
 .test {
-  padding: 100px 0;
+  padding-bottom: 100px;
 }
 
 .test__description {
